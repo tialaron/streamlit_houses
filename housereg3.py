@@ -673,7 +673,7 @@ with col14:
 
 
 'точечный график результатов предсказаний'
-image11 = Image.open('/sysroot/home/user/Загрузки/PyProject/housereg3/venv/распределение_ошибки.png')
+image11 = Image.open('распределение_ошибки.png')
 st.image(image11, caption='график ошибки')
 #MAE, predUnscaled, yTrainUnscaled = mae(xTrainScaled[valMask], yTrainScaled[valMask])
 #fig = plt.figure(figsize=(10,10))
@@ -690,7 +690,7 @@ st.image(image11, caption='график ошибки')
 
 'график удаленности от центра'
 
-image12 = Image.open('/sysroot/home/user/Загрузки/PyProject/housereg3/venv/график_удаленности_от_центра.png')
+image12 = Image.open('график_удаленности_от_центра.png')
 st.image(image12, caption='график удаленности станций от центра')
 
 #center_metro = []
