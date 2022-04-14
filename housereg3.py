@@ -380,7 +380,7 @@ def getYTrain(data):
 #splitVal = 0.05 #Процент, который выделяем в проверочную выборку
 #valMask = np.random.sample(xTrainScaled.shape[0]) < splitVal
 
-model = load_model('/sysroot/home/user/Загрузки/PyProject/housereg3/venv/housemodel1.h5')
+model = load_model('housemodel1.h5')
 
 #Функция для подсчета MAE
 def mae(inp, true_out):
