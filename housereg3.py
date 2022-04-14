@@ -656,7 +656,7 @@ with col14:
         out = [out]
         out = np.array(out)
 
-        model = load_model('/sysroot/home/user/Загрузки/PyProject/housereg3/venv/housemodel1.h5')
+        model = load_model('housemodel1.h5')
         pred = model.predict([out])  # Полуаем выход сети на проверочной выборке
 
         NewScaler1 = StandardScaler()
